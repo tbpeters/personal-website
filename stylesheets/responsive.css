@@ -1,0 +1,17 @@
+@media screen and (min-width: 660px){
+
+	img {
+		height: 60%;
+		width: 60%;
+		margin-bottom: 500px;
+	}
+
+	.left {
+		width: 50%;
+		float: left;
+	}
+	.right {
+		width: 50%;
+		float: right;
+	}
+} 
