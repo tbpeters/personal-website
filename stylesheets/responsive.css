@@ -1,17 +1,47 @@
-@media screen and (min-width: 660px){
-
-	img {
-		height: 60%;
-		width: 60%;
-		margin-bottom: 500px;
+.left img {
+		height: 30%;
+		width: 30%;
+		border-radius: 100%;
 	}
+
+.projectLeft img {
+	height: 80%;
+	width: 80%;
+}
+
+@media screen and (min-width: 660px){
 
 	.left {
 		width: 50%;
 		float: left;
 	}
+
+	.left img {
+		height: 60%;
+		width: 60%;
+		margin-bottom: 500px;
+		border-radius: 100%;
+	}
+
 	.right {
 		width: 50%;
+		float: right;
+	}
+
+	.projectLeft {
+		width: 40%;
+		float: left;
+		border-radius: none;
+		padding-top: 10px;
+	}
+
+	.projectLeft img {
+		height: 80%;
+		width: 80%;
+	}
+
+	.projectRight {
+		width: 60%;
 		float: right;
 	}
 } 

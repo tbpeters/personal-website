@@ -4,7 +4,11 @@ ul {
     margin: 0;
 }
 
-/* links */
+ul li {
+	display: inline;
+}
+
+/******* begin link decoration ********/
 a { 
 	text-decoration: none;
 	color: #000;
@@ -18,8 +22,9 @@ a:visited {
 a:hover { 
 	text-decoration: underline; 
 }
+/******* end link decoration ********/
 
-#projects {
+.projects {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
@@ -42,7 +47,6 @@ h1 {
 
 nav li {
 	display: inline;
-	/* background-color: lightgreen;*/
 }
 
 nav {
@@ -51,16 +55,14 @@ nav {
 	padding-bottom: 10px;
 }
 
+/******* begin link decoration ********/
 img {
-	
-	height: 30%;
-	width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 100%;
-  padding: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	padding: 10px;
 }
+/******* end link decoration ********/
 
 section {
 	/* background-color: lightyellow;*/
@@ -77,7 +79,7 @@ p, h3 {
 
 hr { 
 	width:100%; 
-	height:1px; 
+	height:2px; 
 	background: #aaa; 
 	border: none;
 	margin: 0;
@@ -88,13 +90,24 @@ hr {
 	color: royalblue;
 }
 
-.projects ul li {
-	display: inline;
+.bold {
+	font-weight: bold;
+	font-size: 22px;
 }
+
+.projects ul li {
+	display: inline-block;
+}
+
+.projects a {
+	color: royalblue;
+}
+
 
 .underline {
 	text-decoration: underline;
 }
+
 
 
 
